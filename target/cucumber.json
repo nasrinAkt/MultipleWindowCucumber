@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify user can close multiple window",
+        "description": "",
+        "id": ";verify-user-can-close-multiple-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4935310100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open paychex application",
+            "match": {
+              "location": "StepClass.open_paychex_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13971603300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click paychex flex login",
+            "match": {
+              "location": "StepClass.click_paychex_flex_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "multiple.feature"
+  }
+]
